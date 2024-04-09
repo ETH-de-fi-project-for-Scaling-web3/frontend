@@ -66,7 +66,7 @@ const WalletHeader = () => {
   }
 
     return (
-        <Header className='flex justify-end bg-transparent'>
+        <Header className='flex justify-end bg-transparent m-2'>
             {connected ? (
                 <Space direction="horizontal" align="center">
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'end', marginRight: '10px' }}>
